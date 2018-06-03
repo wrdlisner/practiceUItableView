@@ -11,7 +11,6 @@ class DetailViewController: UIViewController {
     
     @IBOutlet weak var foodHowto: UITextView!
     
-    
     var passedIndex:Int? = nil
     
     override func viewDidLoad() {
@@ -30,6 +29,15 @@ class DetailViewController: UIViewController {
         } else {
             foodPicture.image = UIImage(named: "lunpia")
             foodHowto.text = howto[2]
+        }
+        
+    }
+    
+    @IBAction func jump(_ sender: UIButton) {
+        
+        let url = URL(string: "https://goo.gl/hdbwhu")
+        if UIApplication.shared.canOpenURL(url!) {
+            UIApplication.shared.open(url!)
         }
         
     }
