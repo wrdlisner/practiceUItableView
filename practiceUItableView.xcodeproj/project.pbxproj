@@ -12,6 +12,10 @@
 		5511E5D720C2EBF700902854 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5511E5D520C2EBF700902854 /* Main.storyboard */; };
 		5511E5D920C2EBF900902854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5511E5D820C2EBF900902854 /* Assets.xcassets */; };
 		5511E5DC20C2EBF900902854 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5511E5DA20C2EBF900902854 /* LaunchScreen.storyboard */; };
+		555AE87B20C366BF00BB223E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555AE87A20C366BF00BB223E /* DetailViewController.swift */; };
+		555AE87D20C36BE900BB223E /* Hannari.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555AE87C20C36BE900BB223E /* Hannari.otf */; };
+		555AE87E20C36BF100BB223E /* Hannari.otf in Sources */ = {isa = PBXBuildFile; fileRef = 555AE87C20C36BE900BB223E /* Hannari.otf */; };
+		555AE88020C3C67200BB223E /* RGBextension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555AE87F20C3C67200BB223E /* RGBextension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,9 @@
 		5511E5D820C2EBF900902854 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5511E5DB20C2EBF900902854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5511E5DD20C2EBF900902854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		555AE87A20C366BF00BB223E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		555AE87C20C36BE900BB223E /* Hannari.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hannari.otf; sourceTree = "<group>"; };
+		555AE87F20C3C67200BB223E /* RGBextension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBextension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +64,12 @@
 				5511E5D120C2EBF700902854 /* AppDelegate.swift */,
 				5511E5D320C2EBF700902854 /* ViewController.swift */,
 				5511E5D520C2EBF700902854 /* Main.storyboard */,
+				555AE87A20C366BF00BB223E /* DetailViewController.swift */,
+				555AE87F20C3C67200BB223E /* RGBextension.swift */,
 				5511E5D820C2EBF900902854 /* Assets.xcassets */,
 				5511E5DA20C2EBF900902854 /* LaunchScreen.storyboard */,
 				5511E5DD20C2EBF900902854 /* Info.plist */,
+				555AE87C20C36BE900BB223E /* Hannari.otf */,
 			);
 			path = practiceUItableView;
 			sourceTree = "<group>";
@@ -125,6 +135,7 @@
 				5511E5DC20C2EBF900902854 /* LaunchScreen.storyboard in Resources */,
 				5511E5D920C2EBF900902854 /* Assets.xcassets in Resources */,
 				5511E5D720C2EBF700902854 /* Main.storyboard in Resources */,
+				555AE87D20C36BE900BB223E /* Hannari.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				555AE87E20C36BF100BB223E /* Hannari.otf in Sources */,
+				555AE88020C3C67200BB223E /* RGBextension.swift in Sources */,
+				555AE87B20C366BF00BB223E /* DetailViewController.swift in Sources */,
 				5511E5D420C2EBF700902854 /* ViewController.swift in Sources */,
 				5511E5D220C2EBF700902854 /* AppDelegate.swift in Sources */,
 			);
